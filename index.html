@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+
+  <!-- Include dom.js with defer attribute to ensure it's executed in order -->
+  <script defer src="dom.js"></script>
+
+  <!-- Include footer.js with defer attribute to ensure it's executed in order -->
+  <script defer src="footer.js"></script>
+
+  <!-- Include utils.js with async attribute as it has less likely dependencies -->
+  <script async src="utils.js"></script>
+</head>
+<body>
+  <!-- Your HTML body content goes here -->
+</body>
+</html>
